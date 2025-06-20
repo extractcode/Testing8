@@ -37,7 +37,7 @@ section {
   border-radius: 10px;
   padding: 10px 15px;
   margin-bottom: 15px;
-  color: white;
+  color: black;
   font-weight: bold;
   transition: transform 0.2s ease;
 }
@@ -123,5 +123,10 @@ section {
 
   .container {
     padding: 2rem;
+  }
+
+  .weather-gif {
+    height: 300px;
+    object-fit: cover;
   }
 }
